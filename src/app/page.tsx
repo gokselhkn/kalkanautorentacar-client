@@ -10,14 +10,12 @@ import Trending from "@/components/Trending/Trending";
 export default function Home() {
   return (
     <div>
-      <section className="py-2">
-        <Trending />
-      </section>
       <section className="pt-4 pb-0 card-grid">
         <div className="container">
           <div className="row g-4">
+            <CardFeaturedImageOverlay />
             <div className="col-lg-6">
-              <CardFeaturedImageOverlay />
+
             </div>
             <div className="col-lg-6">
               <div className="row g-4">
