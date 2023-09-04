@@ -3,22 +3,28 @@ export default function Newsletter() {
     return (
         <div className="row pt-3 pb-4">
             <div className="col-md-3">
-                <img src="assets/images/logo-footer.svg" alt="footer logo" />
+                <img src="logo-footer.svg" alt="footer logo" />
             </div>
             <div className="col-md-5">
-                <p className="text-muted">The next-generation blog, news, and magazine theme for you to start sharing your stories today! This Bootstrap 5 based theme is ideal for all types of sites that deliver the news.</p>
+                <p className="text-muted">Araçlarımız, her tür yolculuk ihtiyacınıza uygun mükemmel bir seçenek sunuyor. Geniş araç filomuz, lüks otomobillerden ekonomik sınıf araçlara kadar farklı kategorilerdeki araçları içeriyor. Her bir araç, düzenli bakımları yapılmış, temiz ve güvenlik standartlarına uygun olarak hazırlanmıştır. İster şehir içi gezilerde kullanın, ister uzun yolculuklarınız için tercih edin, size en iyi sürüş deneyimini sunmak için buradayız. Rent a car hizmetimizle, araç seçenekleri konusunda sınırsız esneklik ve konfora erişim sağlıyoruz, böylece yolculuklarınız daha keyifli ve sorunsuz oluyor.</p>
             </div>
             <div className="col-md-4">
                 <form className="row row-cols-lg-auto g-2 align-items-center justify-content-end">
                     <div className="col-12">
-                        <input type="email" className="form-control" placeholder="Enter your email address" />
+                        <p className="btn btn-primary m-0">E-posta Gönder<a href="mailto:kalkanorhan51@gmail.com"></a></p>
+
                     </div>
-                    <div className="col-12">
-                        <button type="submit" className="btn btn-primary m-0">Subscribe</button>
+
+                    <div className="form-text mt-2">kalkanorhan51@gmail.com
+
                     </div>
-                    <div className="form-text mt-2">By subscribing you agree to our
-                        <a href="#" className="text-decoration-underline text-reset">Privacy Policy</a>
-                    </div>
+                    <address>
+                        İlhanlı Mahallesi<br />
+                        77 Sokak<br />
+                        No: 39<br />
+                        Niğde Merkez<br />
+                        Türkiye
+                    </address>
                 </form>
             </div>
         </div>

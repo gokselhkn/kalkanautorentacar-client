@@ -1,5 +1,4 @@
 import NavBar from "./NavBar/NavBar";
-import OffCanvasMenu from "./OffCanvas/OffCanvasMenu";
 
 export default function Header() {
     return (

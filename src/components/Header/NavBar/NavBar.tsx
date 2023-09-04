@@ -7,13 +7,12 @@ export default function NavBar() {
         <nav className="navbar navbar-expand-lg">
             <div className="container">
                 <a className="navbar-brand align-items-center" href="index.html">
-                    <img className="navbar-brand-item light-mode-item" src="assets/images/logo-kalkan.svg" alt="logo" />
-                    <img className="navbar-brand-item dark-mode-item" src="assets/images/logo-kalkan.svg" alt="logo" />
-                    <h6 className="navbar-brand-item">Rent A Car</h6>
+                    <img className="navbar-brand-item light-mode-item" src="logo-footer-light.svg" alt="logo" />
+                    <img className="navbar-brand-item dark-mode-item" src="logo-footer.svg" alt="logo" />
                 </a>
 
                 <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="text-body h6 d-none d-sm-inline-block">Menu</span>
+                    <span className="text-body h6 d-none d-sm-inline-block">Menü</span>
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
@@ -24,7 +23,7 @@ export default function NavBar() {
                             <Link className="nav-link active" href="/">Ana Sayfa</Link>
                         </li>
 
-                        <li className="nav-item"> <Link className="nav-link" href="/editorial">Bizi Arayın</Link></li>
+                        <li className="nav-item"> <Link className="nav-link" href="tel:+905061488686">Bizi Arayın</Link></li>
                     </ul>
                 </div>
 

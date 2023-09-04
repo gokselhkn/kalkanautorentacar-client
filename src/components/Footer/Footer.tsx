@@ -1,7 +1,6 @@
 import FooterCopyright from "./FooterCopyright";
-import HotTopics from "./HotTopics";
+import AllCars from "./AllCars";
 import Newsletter from "./Newsletter";
-import Widgets from "./Widgets";
 
 export default function Footer() {
     return (
@@ -9,8 +8,7 @@ export default function Footer() {
             <div className="container">
                 <Newsletter />
                 <hr />
-                <Widgets />
-                <HotTopics />
+                <AllCars />
             </div>
             <FooterCopyright />
         </footer>
