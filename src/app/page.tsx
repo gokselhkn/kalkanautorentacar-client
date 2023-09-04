@@ -42,10 +42,10 @@ export default function Home() {
                   <Card src={"cars/hyundai_i20.png"} alt={"Hyundai i20"} title={"Hyundai i20, Güney Koreli otomobil üreticisi Hyundai tarafından üretilen kompakt sınıf bir otomobil modelidir."} desc={"Hyundai i20, dünya genelinde popüler bir otomobil modelidir ve şehir içi kullanım, aile taşıma ve günlük sürüş ihtiyaçları için tercih edilir."} />
                 </div>
                 <div className="col-sm-6">
-                  <Card src={"cars/kuga_3.png"} alt={"Kuga"} title={"Kuga, sürücülere konforlu ve güvenli bir sürüş deneyimi sunmayı amaçlar."} desc={"Ford Kuga, Ford'un kompakt SUV segmentindeki modelidir ve çeşitli pazarlarda farklı motor seçenekleri ve özelliklerle sunulmuştur."} />
+                  <Card src={"cars/honda_city.png"} alt={"Honda City"} title={"Honda City, Japon otomobil üreticisi Honda tarafından üretilen kompakt sedan otomobil modelidir ve dünya genelinde popülerdir."} desc={"Genellikle kompakt sedan bir otomobil olmasına rağmen, Honda City'nin bagaj hacmi rekabetçi olabilir. Honda City, güvenlik ve sürücü destek teknolojileri sunar."} />
                 </div>
                 <div className="col-sm-6">
-                  <Card src={"cars/kuga_3.png"} alt={"Kuga"} title={"Kuga, sürücülere konforlu ve güvenli bir sürüş deneyimi sunmayı amaçlar."} desc={"Ford Kuga, Ford'un kompakt SUV segmentindeki modelidir ve çeşitli pazarlarda farklı motor seçenekleri ve özelliklerle sunulmuştur."} />
+                  <Card src={"cars/fiat_egea.png"} alt={"Kuga"} title={"Fiat Egea, İtalyan otomobil üreticisi Fiat tarafından üretilen bir kompakt otomobil modelidir."} desc={"Fiat Egea, genellikle şık ve sade bir tasarıma sahiptir. İç mekan, genellikle ferah ve kullanıcı dostu bir tasarıma sahiptir."} />
                 </div>
                 <div className="col-12 text-center mt-5">
 
