@@ -32,7 +32,24 @@ export default function RootLayout({
           <Footer />
         </Providers>
       </body>
-
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-CGJMKKNHJJ`}
+      />
+      <Script
+        id="gtag-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+                      window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+                      gtag('config', 'G-CGJMKKNHJJ', {
+                      page_path: window.location.pathname,
+                      });
+                    `,
+        }}
+      />
       <Script
         src="/js/bootstrap.bundle.min.js"
         strategy="afterInteractive"
