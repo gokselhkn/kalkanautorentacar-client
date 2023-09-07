@@ -19,8 +19,8 @@ export default function Newsletter() {
 
                     </div>
                     <address>
-                        İlhanlı Mahallesi<br />
-                        77 Sokak<br />
+                        Nar Mahallesi<br />
+                        76 Sokak<br />
                         No: 39<br />
                         Niğde Merkez<br />
                         Türkiye
